@@ -187,3 +187,62 @@ footer {
         .entry .right-img {
         float: right;
         }
+
+    /* CSS untuk halaman Contact dan formulir kontak */
+#contact-form {
+    margin: 20px;
+  }
+  
+  #contact-form h2 {
+    font-size: 28px;
+    color: #1f5faa; /* Warna teks yang menonjol */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-group textarea {
+    height: 150px; /* Tinggi textarea lebih besar */
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group textarea {
+    transition: border-color 0.3s ease; /* Efek transisi saat focus */
+  }
+  
+  .form-group input[type="text"]:focus,
+  .form-group input[type="email"]:focus,
+  .form-group textarea:focus {
+    border-color: #1f5faa; /* Warna border saat focus */
+  }
+  
+  .btn {
+    background-color: #1f5faa;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #2b83ea; /* Warna saat hover */
+  }
