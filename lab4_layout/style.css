@@ -246,3 +246,25 @@ footer {
   .btn:hover {
     background-color: #2b83ea; /* Warna saat hover */
   }
+
+  /* CSS untuk mengatur gambar portofolio di halaman About */
+.portfolio-item {
+    margin: 0 auto 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Membuat gambar dan deskripsi berada di tengah */
+  }
+  
+  .portfolio-item img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd; /* Menambahkan border pada gambar */
+  }
+  
+  .portfolio-item p {
+    font-size: 16px;
+    line-height: 24px;
+  }
